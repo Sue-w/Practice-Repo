@@ -7,4 +7,4 @@ client = OpenExchangeClient(APP_ID)
 usd_amount = 1000
 gbp_amount = client.convert(usd_amount, "USD", "GBP")
 
-print(f" ${usd_amount} is equal to £{gbp_amount} in England")
+print(f" ${usd_amount} is equal to £{gbp_amount:.2f} in England")
