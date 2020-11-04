@@ -1,0 +1,6 @@
+.DS_Store
+Interacting_with_APIs/.DS_Store
+Interacting_with_APIs/libs/__pycache__/
+_init_.py
+venv
+.idea
