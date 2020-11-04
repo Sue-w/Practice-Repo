@@ -1,6 +1,5 @@
 """ This program finds the highest common factor among a set of number
-- starting with a list of 2 items then 4 then 10 until the logic is developed
-- takes in only positive numbers in infinite range
+- starting with a list of 2
 - returns the hcf
 - logic: calculate all factors of each number in separate lists. Then find the max of the common between those two lists
 - (if time see to implement logic to omit unnecessary divisibility calculations.)
@@ -41,11 +40,11 @@ The Euclidean Algorithm for finding GCD(A,B) is as follows:
 #             x, y = y, x%y
 
 
-def gcf(a, b):
-    a, b = max(a, b), min(a,b)
+def greatest_common_factor(a, b):
+    no_1, b= max(no1, no2), min(no1, no2)
     while b:
         a, b = b, a%b
     return a
 
-gcf = gcf(12, 100)
+gcf = gcf(12, 144)
 print(f"gcf = {gcf}")
