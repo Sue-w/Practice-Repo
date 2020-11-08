@@ -3,7 +3,7 @@ output = []
 
 def product(input):
 
-    for count in range(len(input)-1):
+    for count in range(len(input)):
         working_list = []
         if count == 0:
             # Add all elements except the 0th element in the working list
@@ -25,17 +25,17 @@ def product(input):
     return output
 
 # Alternate and quicker method
-# def product(user_input):
-#
-#     for count in range(len(user_input-1):
-#         working_list = user_input
-#         current_element = working_list[count]
-#         working_list.remove(current_element)
-#
-#         array_product = 1
-#         for x in working_list:
-#             array_product = array_product * x
-#
-#         output.append(array_product)
-#     return output
+def product(user_input):
+
+    for count in range(len(user_input)):
+        print(count)
+        working_list = user_input.copy()
+        current_element = working_list[count]
+        working_list.remove(current_element)
+        array_product = 1
+        for x in working_list:
+            array_product = array_product * x
+        print(array_product)
+        output.append(array_product)
+    return output
 
