@@ -12,7 +12,6 @@ Follow-up: what if you can't use division?
 """
 from Problem2_functions import product
 
-
 example_input = [1, 2, 3, 4, 5]
 
 if 0 in example_input:
