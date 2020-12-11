@@ -103,7 +103,7 @@ tree.print_tree()
 
 
 
-
+# ----- OLD STUFF - IGNORE ------
 
 # class Node:
 #     def __init__(self, val, left=None, right=None):
