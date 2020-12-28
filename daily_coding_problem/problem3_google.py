@@ -74,8 +74,7 @@ def deserialize(s):
         i += 2
         node.left = deserialize(s)
         node.right = deserialize(s)
-    return Node
-
+    return node
 
 
 root = Node(1)
