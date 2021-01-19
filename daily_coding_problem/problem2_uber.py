@@ -10,7 +10,7 @@ output would be [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected 
 Follow-up: what if you can't use division?
 
 """
-from Problem2_functions import product
+from .problem2_utils.problem2_uber_lib import product
 
 example_input = [1, 2, 3, 4, 5]
 

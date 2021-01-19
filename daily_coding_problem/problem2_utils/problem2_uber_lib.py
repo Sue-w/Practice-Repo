@@ -24,6 +24,7 @@ def product(input):
         output.append(product)
     return output
 
+
 # Alternate and quicker method
 def product(user_input):
 

@@ -15,5 +15,5 @@ def get_geocode(my_input):
     print(f"\nTokyo, Japan is {lat}, {long}")
 
 
-coordinates = getGeocode("Tokyo, Japan")
+coordinates = get_geocode("Tokyo, Japan")
 print(coordinates)
